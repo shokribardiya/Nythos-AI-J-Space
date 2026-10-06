@@ -1,3 +1,4 @@
+<img width="1680" height="936" alt="file_000000001418821095b9d1ee79132034" src="https://github.com/user-attachments/assets/3168e140-98fd-496c-8c9d-9e640e57821d" />
 # J Space for Local AI Model in LM Studio
 
 AI J Space
@@ -7,7 +8,7 @@ AI J Space
 
 > **Memory is not intelligence. Context is not memory. A model is not a system.**
 
-Nythos is a lightweight, local-first runtime that gives local language models a persistent external workspace:
+Nythos is a lightweight, local-first runtime that gives local language models a persistent external workspace: Bardiya Shokri
 
 **memory → salience → bounded workspace → conflict checking → context compilation → model interaction**
 
@@ -98,6 +99,7 @@ Angra answers:
 - How should evidence and corrections move between models?
 
 ---
+<img width="1080" height="1381" alt="Screenshot_20261006_011957_Claude" src="https://github.com/user-attachments/assets/09527490-64db-492c-8458-8ce1912a503a" />
 
 # Core design
 
@@ -106,6 +108,7 @@ Angra answers:
 Memories are typed and provenance-aware.
 
 Current memory types include:
+<img width="1080" height="732" alt="Screenshot_20261006_012038_Claude" src="https://github.com/user-attachments/assets/0cf73615-09dd-43bf-8422-822c73b3c4b9" />
 
 - episodic
 - semantic
@@ -135,6 +138,7 @@ Model-created memories begin as untrusted/candidate information. A model cannot 
 The implementation also deduplicates memories by normalized content hash and records corroboration.
 
 ---
+<img width="1080" height="612" alt="Screenshot_20261006_012033_Claude" src="https://github.com/user-attachments/assets/dc92a982-7d62-479a-90db-735084c1468f" />
 
 ## 2. Salience and bounded workspace
 
@@ -160,6 +164,7 @@ Candidate pool:    400
 ```
 
 These are engineering limits, not claims about any model's internal capacity.
+<img width="1080" height="593" alt="Screenshot_20261006_012013_Claude" src="https://github.com/user-attachments/assets/3f4977c6-a3ae-4e65-8a7d-486efb1381ce" />
 
 ---
 
@@ -184,6 +189,7 @@ Trusted user/verified memories are not automatically degraded merely because a l
 Important conflicts require user authority to resolve.
 
 ---
+<img width="1500" height="1274" alt="1_sonnet55_session_log" src="https://github.com/user-attachments/assets/f26e80b2-50c4-45fa-a49a-3d934e2dcca3" />
 
 ## 4. Context compilation
 
@@ -212,6 +218,7 @@ The point is not "more context".
 The point is **better context**.
 
 ---
+<img width="1500" height="1268" alt="2_workspace_packets" src="https://github.com/user-attachments/assets/356ef9cd-0f96-48d7-ae8a-4f9e59ba1670" />
 
 ## 5. Sessions and continuity
 
@@ -225,6 +232,7 @@ A session keeps:
 The goal is to let a local model continue useful work without replaying the entire transcript every time.
 
 ---
+<img width="1080" height="1282" alt="Screenshot_20261006_012046_Claude" src="https://github.com/user-attachments/assets/49f02b7a-1406-408b-b35b-30da5d1efd3b" />
 
 # Safety philosophy
 
@@ -246,6 +254,7 @@ It does not:
 - store hidden/private chain-of-thought
 
 The only external configuration operation is the explicitly backed-up and ownership-checked LM Studio `mcp.json` integration.
+<img width="1500" height="630" alt="5_model_test_matrix" src="https://github.com/user-attachments/assets/cbc34ebd-48c1-430c-9380-596fb205d2f3" />
 
 The local data store uses SQLite with:
 
@@ -276,6 +285,7 @@ The MCP process uses:
 The integration is intentionally loopback/local.
 
 ---
+<img width="1500" height="750" alt="4_benchmark" src="https://github.com/user-attachments/assets/affc85be-2baf-4322-9367-68049f3d1529" />
 
 # The most important scientific boundary
 
@@ -304,6 +314,7 @@ A software workspace around a model is useful.
 Pretending it is the model's internal activation space would just be marketing.
 
 ---
+<img width="1500" height="786" alt="3_attack_tests" src="https://github.com/user-attachments/assets/48f11dbc-c379-42c9-af66-ac5d858bdb43" />
 
 # Current implementation test
 
@@ -644,4 +655,4 @@ LM Studio live launch:    not verified by self-test
 
 That is the honest status.
 
-And honesty is considerably easier to maintain than a fake leaderboard.
+And honesty is considerably easier to maintain than a fake leaderboard.Bardiya Shokei
