@@ -20,7 +20,13 @@ The current implementation is a single Python file using the standard library an
 <img width="1130" height="405" alt="Screenshot 2026-10-07 100752" src="https://github.com/user-attachments/assets/10f19fa8-c724-4896-92e2-eb8a4189fe0c" />
 
 ## Why Nythos exists
-
+```text 
+python nythosplus.py install --dry-run
+python nythosplus.py install
+python nythosplus.py status
+python nythosplus.py doctor
+python nythosplus.py self-test
+```
 A strong local model is still operating inside an environment.
 
 Without persistent state, it forgets project decisions.
