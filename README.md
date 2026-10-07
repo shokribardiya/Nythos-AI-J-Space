@@ -17,6 +17,7 @@ It is intentionally not a model, not a replacement for LM Studio, and not a clai
 The current implementation is a single Python file using the standard library and SQLite. It communicates with LM Studio through a local MCP/loopback architecture and is designed to avoid model lifecycle control, arbitrary shell execution, network listeners, and invasive modification of LM Studio.
 
 ---
+<img width="1130" height="405" alt="Screenshot 2026-10-07 100752" src="https://github.com/user-attachments/assets/10f19fa8-c724-4896-92e2-eb8a4189fe0c" />
 
 ## Why Nythos exists
 
